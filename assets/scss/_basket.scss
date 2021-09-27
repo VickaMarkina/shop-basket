@@ -1,0 +1,28 @@
+.page-header__navbar {
+  position: relative;
+}
+
+.basket {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  padding: 10px;
+
+  background-color: rgb(162, 209, 240);
+  color: $color-dark;
+
+  p {
+    text-align: center;
+  }
+
+  &__list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  display: none;
+
+  &.show {
+    display: inline-block;
+  }
+}
